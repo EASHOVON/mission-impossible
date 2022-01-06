@@ -22,9 +22,24 @@ body {
   color: #e67e22;
 }
 
+.common-btn {
+  color: #fff;
+  background: rgb(192, 57, 43);
+  background: linear-gradient(
+    356deg,
+    rgba(192, 57, 43, 1) 0%,
+    rgba(231, 76, 60, 1) 35%,
+    rgba(230, 126, 34, 1) 100%
+  );
+  border: none;
+  padding: 12px 35px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
 /* Main Css */
 
-/* Hero Section */
+/* Hero Section Start */
 .hero-section {
   display: flex;
   align-items: center;
@@ -36,14 +51,27 @@ body {
   font-size: 58px;
   line-height: 75px;
   border-left: 5px solid #ff5959;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 .hero-text {
-  width: 70%;
+  width: 90%;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.custom-btn {
+  margin-top: 20px;
 }
 
 .hero-section-image img {
   width: 80%;
   margin-left: 100px;
 }
+
+.scroll-text {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+/* Hero Section End */
