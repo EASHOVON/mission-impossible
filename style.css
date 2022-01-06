@@ -188,3 +188,69 @@ body {
   width: 100%;
 }
 /* Community Section End */
+
+/* Lets Talk Section Start */
+.lets-talk-section {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.lets-talk-text {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.lets-talk-text img {
+  width: 2%;
+  margin-right: 8px;
+}
+
+.lets-talk-heading {
+  font-size: 48px;
+  color: #161c2d;
+  text-align: center;
+  line-height: 52px;
+}
+
+.btn-body {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.custom-talk-btn {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+.custom-talk-btn img {
+  width: 20%;
+  margin-right: 10px;
+}
+/* Lets Talk Section End */
+
+/* Footer start */
+.footer {
+  width: 100%;
+  background-color: #0b0d17;
+  padding: 60px 0;
+}
+
+.footer-heading {
+  color: #ffff;
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.footer-text {
+  color: #d9dbe1;
+  text-align: center;
+  margin-top: 30px;
+}
+/* Footer End */
