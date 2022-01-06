@@ -157,3 +157,34 @@ body {
 }
 
 /* Limit Section End */
+
+/* Community Section Start */
+.community-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.community-items {
+  width: 60%;
+  margin-right: 50px;
+}
+
+.community-heading {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.community-text {
+  margin-bottom: 20px;
+}
+
+.community-img {
+  width: 40%;
+}
+
+.community-img img {
+  width: 100%;
+}
+/* Community Section End */
